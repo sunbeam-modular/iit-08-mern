@@ -20,7 +20,7 @@
 	1. INNER JOIN
 	2. LEFT JOIN
 
-Lab Work:-
+2. Lab Work:-
 
 1. Classwork - 
 	1. MySQL database lecture practice - Upload in Day3 - Classwork folder => word docs => Sunbeam_Internship_Roll-Num Repo
