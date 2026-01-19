@@ -1,0 +1,1 @@
+console.log("This is from external Javascript file demo01.js");
