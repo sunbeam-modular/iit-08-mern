@@ -1,0 +1,21 @@
+-- ============================================
+-- Create MySQL Application User and Database
+-- Run this file as root user
+-- ============================================
+
+-- 1. Create application user
+CREATE USER IF NOT EXISTS 'app_user'@'localhost'
+IDENTIFIED BY 'StrongPassword@123';
+
+--2. Grant Full privileges
+GRANT ALL PRIVILEGES ON *.* TO 'app_user'@'localhost' WITH GRANT OPTION;
+
+
+-- 3. Apply privilege changes
+FLUSH PRIVILEGES;
+
+-- 4. Verify created user
+SELECT user, host FROM mysql.user;
+
+-- 5. Delete the MySQL user
+DROP USER 'app_user'@'localhost';
